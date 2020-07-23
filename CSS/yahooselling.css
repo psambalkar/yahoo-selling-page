@@ -1,0 +1,30 @@
+body{
+    /* background-color: yellow; */
+    padding-top: 20px;
+    background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nav-justified{
+    background-color:transparent;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.nav-justified>li>a{
+    /* padding:15px 0px; */
+    color: #777;
+    text-align: center;
+    /* background-color: #e5e5e5; */
+}
+.jumbotron{
+    text-align: center;
+    background-color:transparent;
+}
+.jumbotron .btn{
+    padding:15px 25px;
+    font-size: 22px;
+}
+.col-lg-4 .centro{
+    text-align: center;
+}
